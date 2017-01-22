@@ -1,19 +1,19 @@
 ---
-- name: Contribute
+- name: 贡献
   data:
   - name: Gerrit
-    text: Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.
+    text: Gerrit是一个基于网络的代码审查系统，使用Git版本控制系统为项目提供在线代码审查。
     url: http://review.lineageos.org
   - name: Wiki
-    text:  Our wiki is always looking for editors. If you enjoy writing clear and concise guides, tutorials, or documentation we need you!
+    text:  我们的Wiki一直招收编辑人员。如果你喜欢写清晰简明的指南、教程或文档，我们需要你！
     url: http://wiki.lineageos.org
-- name: Support
+- name: 支持
   data:
   - name: IRC
-    text: If you are comfortable with IRC and would like instant help and assistance from both developers and others users alike.
+    text: 如果你喜欢IRC交流，并希望得到来自开发人员和其他用户的即时帮助和指导。
     url: https://webchat.freenode.net/?channels=lineageos
   - name: reddit
-    text: For discussions regarding devices, features, or just general android talk, check out our subreddit.
+    text: 有关设备、功能或只是一般的Android话题的讨论，请查看我们的subreddit。
     url: https://reddit.com/r/lineageos
     #  - name: Wiki (Coming Soon)
     #    text: Our Wiki is a comprehensive tool for users to find information. This also needs contributions to keep it fresh and relevant.
