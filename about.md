@@ -8,9 +8,8 @@ permalink: /about/
 
 ### /ˈlinēij/
 
-#### _noun_
+#### _名词_
 
 
-1. lineal descent from an ancestor; ancestry or pedigree. 
-2. a sequence of species each of which is considered to have evolved from its predecessor. 
-
+1. 家系；直系；血统。
+2. 物种进化。
