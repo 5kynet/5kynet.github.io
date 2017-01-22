@@ -1,65 +1,65 @@
 ---
 layout: page
-title: Legal
+title: 版权
 permalink: /legal/
 ---
 
-## Terms of Service
+## 服务条款
 
-### DISCLAIMER
-All information and files &mdash; both in source and compiled form &mdash; are provided on an as is basis. No guarantees or warranties are given or implied. The user assumes all risks of any damages that may occur, including but not limited to loss of data, damages to hardware, or loss of business profits. Please use at your own risk. Note that unless explicitly allowed by the warranty covering your device, it should be assumed that any warranty accompanying your device will be voided if you tamper with either the system software or the hardware.
+### 免责声明
+所有信息和文件 - 无论是源代码还是编译形式 - 都是按原样提供的。不提供或暗示担保或保证。用户承担可能发生的任何损害的所有风险，包括但不限于数据丢失，硬件损坏或业务利润损失。请自行承担风险。请注意，除非您的设备的保修明确允许，否则假设您篡改系统软件或硬件时，设备附带的任何保修将失效。
 
-### TERMS OF USE
-Certain images, logos, pictures, and other works originating with organizations other than LineageOS may be or are the trademarks and/or servicemarks of those other organizations and are subject to the laws of their registered countries. LineageOS' usage constitutes a 'fair use' of any such copyrighted material as provided for in section 107 of the US Copyright Law. If you wish to use copyrighted material from this site for purposes of your own that go beyond 'fair use', you must obtain permission from the copyright owner. Requests for removal of copyright material may be sent to <legal@lineageos.org>.
+### 使用条款
+某些图像，徽标，图片和源自LineageOS以外组织的其他作品可能是或者是其他组织的商标和/或服务标记，并受其注册国家/地区的法律约束。LineageOS的使用构成“美国版权法”第107节中规定的任何此类版权材料的“合理使用”。如果您希望使用本网站的版权材料，以超越“合理使用”的目的，您必须获得版权所有者的许可。去除版权材料的请求可能会被发送到<legal@lineageos.org>。
 
-## Privacy Policy
-Your privacy is important to LineageOS. Our Privacy Policy explains how we collect, use, disclose, transfer, and store your information. Please take a moment to familiarize yourself with our privacy practices.
+## 隐私政策
+您的隐私对LineageOS很重要。我们的隐私政策说明了我们如何收集，使用，披露，转移和存储您的信息。请花一点时间熟悉我们的隐私权惯例。
 
-LineageOS provides an after-market operating system and applications for various mobile devices.
+LineageOS为各种移动设备提供售后操作系统和应用程序。
 
-### INFORMATION WE HAVE
-Certain information (e.g. a device unique anonymized ID, device model, etc.) is transmitted to us solely for the purpose of measuring non-personally identifiable installation metrics. Unless otherwise stated below, this information is not used for any other purpose.
+### 我们拥有的信息
+仅将用于测量非个人可识别安装度量的某些信息（例如，设备唯一的匿名ID，设备型号等）传送给我们。除非另有说明，本信息不用于任何其他目的。
 
-1. Information we store from the device
- - The unique anonymous ID of the device (this ID changes upon device factory reset)
- - The device model
- - The version(s) of our software installed on the device
- - The country from which the device registered
- - The wireless carrier(s) to which the device is actively registered
+1. 从设备存储的信息
+ - 设备的唯一匿名ID（设备出厂重置时此ID会更改）
+ - 设备模型
+ - 我们安装在设备上的软件的版本
+ - 设备注册的国家/地区
+ - 设备主动注册的无线运营商
 
-2. Information we store from the contributions to our code review platform (Gerrit)
- - Email addresses for registration and to facilitate review
- - Signed Contributor License Agreements (CLA)
- - IP addresses, SSH activity, and API access may be logged for rate limiting or to prevent abuse
+2. 我们存储在我们的代码审查平台（Gerrit）
+ - 电子邮件地址注册和便于审查
+ - 签署的贡献者许可协议（CLA）
+ - 可以记录IP地址，SSH活动和API访问以限制速率或防止滥用
 
-3. Information we store for cursory services
- - Email addresses for registration to wiki and bug tracking software
- - IP addresses may be logged for rate limiting or to prevent abuse
+3. 我们为粗略服务存储的信息
+ - 注册到wiki和错误跟踪软件的电子邮件地址
+ - 可以记录IP地址以限制速率或防止滥用
 
-4. Additional information you may provide us
- - Bug reports submitted to assist in providing support may contain Personally Identifiable Information (PII). While we will do our best to prevent the collection of this information from processes within our control, your usage and submission of this data may contain PII and you should take steps to sanitize and validate this data prior to submission.
+4. 您可能向我们提供的其他信息
+ - 提交的帮助提供支持的错误报告可能包含个人身份信息（PII）。尽管我们将尽最大努力防止从我们控制的流程收集此信息，但您对此数据的使用和提交可能包含PII，您应该在提交之前采取措施来清理和验证此数据。
 
-### OPT-OUT
-You may opt-out of LineageOS device statistics via the Privacy menu in Settings on the device.
+### 选择退出
+您可以通过设备上的设置中的隐私菜单选择停用LineageOS设备统计信息。
 
 ### WEB
-As is true of most websites, we gather some information automatically and store it in log files. This information includes Internet Protocol (IP) addresses, browser type (and version) and language, Internet service provider (ISP), referring and exit pages, operating system, date/time stamp, and clickstream data.
+与大多数网站一样，我们自动收集一些信息并将其存储在日志文件中。此信息包括互联网协议（IP）地址，浏览器类型（和版本）和语言，互联网服务提供商（ISP），引用和退出页面，操作系统，日期/时间戳和点击流数据。
 
-We may collect information regarding user activities on our website and from our other products and services. This information is aggregated and used to help us provide more useful information to our users to understand which parts of our website, products, and services are of most interest, and for general system diagnostics. Aggregated data is considered non-personal information for the purposes of this Privacy Policy.
+我们可能收集有关用户活动的信息在我们的网站上和我们的其他产品和服务。此信息被汇总并用于帮助我们为用户提供更有用的信息，以了解我们的网站，产品和服务的哪些部分是最感兴趣的，并用于一般系统诊断。出于本隐私政策的目的，聚合数据被视为非个人信息。
 
-We do not knowingly collect personal information from children under 13 except where a parent has set up an account for their child and provided LineageOS with verified parental consent. If we learn that we have collected the personal information of a child under 13 without first receiving verifiable parental consent we will take steps to delete the information as soon as possible.
+我们不会故意收集13岁以下儿童的个人信息，除非父母为他们的孩子设置了帐户，并向经过验证的家长同意提供LineageOS。如果我们了解到我们在未事先征得父母同意的情况下收集13岁以下儿童的个人信息，我们将采取措施尽快删除这些信息。
 
-### INFORMATION WE MAY SHARE
-We do not share your information with companies, organizations, or individuals outside of LineageOS unless one of the following circumstances applies:
+### 我们可能分享的信息
+我们不会与LineageOS以外的公司，组织或个人分享您的信息，除非以下情况之一：
 
-- With your consent (Submission of bug reports to our bug tracking platform is considered consent.)
-- When legally required.
+- 您的同意（向我们的错误跟踪平台提交错误报告被视为同意）。
+- 法律要求。
 
-We will share the information we have with entities outside of LineageOS if we have a good faith belief that access, use, preservation, or disclosure of the information is necessary to:
+我们将与LineageOS以外的实体共享我们的信息，如果我们有充分的理由相信，访问，使用，保存或披露信息是必要的：
 
- - meet any applicable law, regulation, legal process or enforceable governmental request.
- - enforce applicable Terms of Service, including investigation of potential violations.
- - detect, prevent, or otherwise address fraud, security, or technical issues.
- - protect against harm to the rights, property, or safety of LineageOS, our users, or the public as required or permitted by law.
+ - 符合任何适用的法律，法规，法律程序或可执行的政府要求。
+ - 执行适用的服务条款，包括调查潜在的违规行为。
+ - 检测，防止或以其他方式处理欺诈，安全或技术问题。
+ - 保护LineageOS，我们的用户或公众的权利，财产或安全，法律要求或允许的损害。
 
-We will update this privacy policy as needed so that it is current, accurate, and as clear as possible.
+我们将根据需要更新此隐私政策，以便其是最新，准确和尽可能明确。
