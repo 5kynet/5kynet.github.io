@@ -1,28 +1,28 @@
 ---
 layout: post
-title: Infrastructure Status & Official Builds
+title: 基础设施状态和官方构建
 category: blog
-excerpt: Build slaves, mirrors, and builds
+excerpt: 构建服务器和镜像源
 author: zifnab
 ---
 
-We're working on getting everything operational and would like to thank everyone who's reached out offering assistance. 
+我们正在努力使一切正常运行，感谢所有提供援助的人。
 
-If you haven't heard back from us, you should in the next week or so. 
+没有收到我们的回复的大约会在下一周左右收到。 
 
-Current needs: 
+当前需求：
 
-* Build Slaves
-  * Must be able to finish (and upload) `make clean && make dist` within an hour, and be capable of running docker. 
-* Build Mirrors
-  * Minimum 1gbit network connectivity.
-  * Minimum 500GB storage space. 
-  * As a note, we'd prefer non-capped connections with static IPs, and they must be in some sort of professional hosting company (ie, datacenter, colocation facility, ISP, university, etc). While we appreciate the offers from people with gigabit at home, it's slightly too hard to manage.  
+* 构建服务器
+  * 必须能够完成（和上传）make clean && make dist一个小时之内，并能够运行Docker。
+* 镜像源
+  * 最低1GB网络连接。
+  * 最小500GB存储空间。
+  * 注意，我们更喜欢使用静态IP的无限制连接，它们必须在某种专业托管公司（即数据中心，托管设施，ISP，大学等）。虽然我们也感激各位提供的家用gigabit，但是这个太难管理了。
 
-Please contact [infra@lineageos.org](mailto:infra@lineageos.org) if you are willing to provide either build slaves or build mirrors. 
+如果你愿意提供网络空间来建立构建服务器和镜像源，请联系[infra@lineageos.org](mailto:infra@lineageos.org)。
 
-As a reminder: we have not started doing official builds yet. One of the benefits of this being an open source project is that anyone can build it, but please be careful flashing builds you've downloaded from other sources. We will have some more information on when weeklies (or possibly nightlies) will be starting soon. 
+提醒：我们还没有开始做官方构建。开源项目的好处之一是任何人都可以构建它，但请小心您从其他来源下载的版本。当weeklies（或可能nightlies）开始时，我们会发布更多信息。
 
-Thanks!
+感谢！
 
-LineageOS Team
+LineageOS 团队
