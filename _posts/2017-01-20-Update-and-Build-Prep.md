@@ -1,44 +1,44 @@
 ---
 layout: post
-title: Update & Build Prep
+title: 更新和支持准备
 category: blog
-excerpt: All systems operational
+excerpt: 安装操作说明
 author: ciwrl
 ---
 
-Alright, alright, alright - it's nearly 'go time' for builds to start flowing. Before everyone gets excited and rushes to download, we want to cover a few important points.
+好吧，我们的官方支持马上就要开始了。在每个人兴奋和冲动去下载前，我们想说几个重点。
 
-First, we want to thank everyone that stepped forward to assist with the infrastructure (and offers continue to pour in). Thanks to you all, all infrastructure pieces are lighting up 'Operational' on our lovely [status page.](https://status.lineageos.org)
+首先，我们要感谢所有协助建设基础设施（并继续提供服务）的人。感谢你们。所有的基础设施都会展现在可爱的[状态页](https://status.lineageos.org)。
 
-Additionally, our [Download Portal](https://download.lineageos.org), [Install stats page](https://stats.lineageos.org) (yep, that's 50k+ unofficial installs already!) and [Wiki](http://wiki.lineageos.org) are all live. Notably, all three of these sites (and this blog) are open sourced - you can contribute to them via our Gerrit instance! Bear with us if these sites look bare at the moment, they will grow with content and design as we continue marching forward.
+此外，我们的[下载页面](https://download.lineageos.org)、[安装统计页面](https://stats.lineageos.org) （现在已经5万多的非官方安装了）和[Wiki](http://wiki.lineageos.org)都已经提供服务了。值得一提的是，这三个网站和这个博客都是开源的，所以你也可以通过Gerrit贡献自己的内容。如果这些网站运行不错，慢慢的我们会继续维护个改进网站内容和设计。
 
-On to the fun stuff - build roster, release process and other details:
+再来点有趣的东西 - 支持设备名单、发布过程和其他详细信息。
 
-* The build roster is ever growing, but we are supporting Marshmallow and Nougat capable devices.
-  * We'll list the 80+ devices in a separate post.
-* Our release cadence will be 'weekly' by default (to be nice to all the donated hardware).
-* We will NOT be shipping root baked into the ROM.
-  * Root will be a downloadable zip based install similar to gapps installation (only need to flash it once).
-  * Home builders that want to bake su back into the ROM can use the command 'export WITH_SU=true' prior to building.
-* Our official builds will all be signed with a private key for authentication and signature permission control
-  * This will not break, prevent or stop any 'unofficial' builds.
-  * Key verification info can be found on the wiki [Verifying Build Authenticity page](http://wiki.lineageos.org/verifying-builds.html)
+* 支持的设备名单越来越多，但是现在我们支持Marshmallow和Nougat功能的设备。
+   * 我们将在一个单独的帖子中列出80+的设备。
+* 我们的发布周期为每周（支持所有捐赠的硬件）。
+* 我们不会将Root集成进ROM里。
+   * Root功能提供zip包下载，类似gapps的安装（可根据需要来安装）。
+   * 第三方编译者也可通过使用命令“export WITH_SU=true”，来将Root功能集成进ROM中。
+* 我们的官方版本都将使用私钥进行身份验证和签名权限控制。
+   * 这样可以避免任何非官方的编译。
+   * [密钥验证信息](http://wiki.lineageos.org/verifying-builds.html)可以在wiki上找到。
+   
+关于安装，我们建议用户在切换LineageOS前清除设备数据，然后重新安装gapps。我们意识到这可能很耗时间，所以我们提供一个EXPERIMENTAL解决方案（当然，如果不起作用，你还是要清除数据）。
 
-Regarding installation, we recommend that users wipe when switching to LineageOS, and reinstall their gapps. However, we recognize that this can be time consuming, so we are offering an EXPERIMENTAL (read as, if it fails, you'll have to wipe anyways) solution.
+* 除了支持的设备的“weekly”版本外，我们还将提供一个EXPERIMENTAL数据迁移内容。
+* 此支持将允许您从CM“升级”到每周签署的LineageOS。
+* 此支持会擦除权限（你必须重新配置应用权限），但是应该会保留用户数据。
+* 此支持会带有丑陋的提示，以确保你在升级到正常的每周更新前不会永久运行此实验版本。
+* 此安装的过程如下：
+   * 在cm-13.0或cm-14.1构建之上安装EXPERIMENTAL迁移构建（不要尝试在CM 14.1之上安装LineageOS 13.0，这将不起作用）。
+   * 重启。
+   * 安装LineageOS每周版本。
+   * 重启。
+   * 重新设置应用程序的权限。
+   
+鉴于此过程的实验性质，我们将在两个月内删除此选项。
 
-* Alongside the 'weekly' release for your supported device, we'll provide an EXPERIMENTAL data migration build.
-* This build will allow you to 'upgrade' from CM to the signed LineageOS weekly
-* This build may wipe permissions (you'll have to re-allow app permissions), but should retain all user data
-* This build will be watermarked with an ugly banner to ensure that you don't permanently run this EXPERIMENTAL release, and upgrade to a normal weekly after.
-* The process for this installation will be as follows:
-  * Install EXPERIMENTAL migration build on top of cm-13.0 or cm-14.1 build (don't try to install LineageOS 13.0 on top of CM 14.1, that will not work).
-  * Reboot
-  * Install LineageOS weekly build
-  * Reboot
-  * Re-setup your application permissions
+从这个周末开始体验新的版本吧！
 
-Given the EXPERIMENTAL nature of this process, we are going to remove this option in two months time.
-
-Look for builds to start rolling out this weekend!
-
-LineageOS Team
+LineageOS 团队
